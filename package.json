@@ -1,0 +1,41 @@
+{
+  "name": "devHub-dark-theme",
+  "displayName": "devHub-dark",
+  "description": "devHub cool dark theme for by Luqman obalola 'A programmer with style :)!!!'",
+  "version": "2.0.0",
+  "publisher": "devHub",
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/iamluqmaan/dev-hub-theme"
+  },
+  "keywords": [
+    "dark theme",
+    "dark",
+    "theme",
+    "devhub",
+    "dev",
+    "hub",
+    "dev-hub",
+    "devHub",
+    "hubdev",
+    "devhub theme",
+    "dev theme",
+    "the devhub theme"
+  ],
+  "icon": "image/icon.jpg",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "devHub cool dark-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/devHub cool dark-theme-color-theme.json"
+      }
+    ]
+  }
+}
